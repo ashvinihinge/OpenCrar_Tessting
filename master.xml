@@ -17,9 +17,9 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 		
-		<class name="com.TestCase.TC001_Account_RegistrationTest" /> 
+		<!--  <class name="com.TestCase.TC001_Account_RegistrationTest" />   -->
 							
-		<!--  	<class name="com.TestCase.TC002_LoginTest"/>   -->
+		 	<class name="com.TestCase.TC002_LoginTest"/>  
 			
 		<!--	<class name="com.TestCase.TC003_LoginTestDataDrivenTest"/>   -->
 			
