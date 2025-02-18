@@ -2,12 +2,18 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-18T12:43:53 IST" name="Master Suite" finished-at="2025-02-18T12:43:59 IST" duration-ms="6127">
+  <suite started-at="2025-02-18T13:18:26 IST" name="Master Suite" finished-at="2025-02-18T13:18:30 IST" duration-ms="4514">
     <groups>
+      <group name="Master">
+        <method signature="TC002_LoginTest.verifyLoginOrNot()[pri:0, instance:com.TestCase.TC002_LoginTest@7cc586a8]" name="verifyLoginOrNot" class="com.TestCase.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verifyLoginOrNot()[pri:0, instance:com.TestCase.TC002_LoginTest@7cc586a8]" name="verifyLoginOrNot" class="com.TestCase.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-02-18T12:43:53 IST" name="Test" finished-at="2025-02-18T12:43:59 IST" duration-ms="6127">
-      <class name="com.TestCase.TC001_Account_RegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TestCase.TC001_Account_RegistrationTest@7cc586a8]" started-at="2025-02-18T12:43:53 IST" name="setUp" finished-at="2025-02-18T12:43:57 IST" duration-ms="4029" status="PASS">
+    <test started-at="2025-02-18T13:18:26 IST" name="Test" finished-at="2025-02-18T13:18:30 IST" duration-ms="4514">
+      <class name="com.TestCase.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TestCase.TC002_LoginTest@7cc586a8]" started-at="2025-02-18T13:18:26 IST" name="setUp" finished-at="2025-02-18T13:18:29 IST" duration-ms="2980" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Account_RegistraionUsingRandomData()[pri:0, instance:com.TestCase.TC001_Account_RegistrationTest@7cc586a8]" started-at="2025-02-18T12:43:57 IST" name="verify_Account_RegistraionUsingRandomData" finished-at="2025-02-18T12:43:59 IST" duration-ms="1895" status="PASS">
+        <test-method signature="verifyLoginOrNot()[pri:0, instance:com.TestCase.TC002_LoginTest@7cc586a8]" started-at="2025-02-18T13:18:29 IST" name="verifyLoginOrNot" finished-at="2025-02-18T13:18:30 IST" duration-ms="1330" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Account_RegistraionUsingRandomData -->
-      </class> <!-- com.TestCase.TC001_Account_RegistrationTest -->
+        </test-method> <!-- verifyLoginOrNot -->
+      </class> <!-- com.TestCase.TC002_LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
